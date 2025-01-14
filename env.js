@@ -9,12 +9,12 @@ require('dotenv').config({
   path: envPath,
 });
 
-const BUNDLE_ID = 'com.template.app'; // ios bundle id
-const PACKAGE = 'com.template.app'; // android package name
-const NAME = 'Template App'; // app name
+const BUNDLE_ID = 'com.template-ananya15.app'; // ios bundle id
+const PACKAGE = 'com.template_ananya15.app'; // android package name
+const NAME = 'Template-ananya15'; // app name
 const EXPO_ACCOUNT_OWNER = 'ananya15'; // expo account owner
-const EAS_PROJECT_ID = '82f92951-bc08-4aed-ae94-c0f76e44dad5'; // eas project id
-const SCHEME = 'template-app'; // app scheme
+const EAS_PROJECT_ID = 'a9ed9852-b1f8-4043-a728-823f642a1804'; // eas project id
+const SCHEME = 'template-ananya15'; // app scheme
 
 /**
  * We declare a function withEnvSuffix that will add a suffix to the variable name based on the APP_ENV

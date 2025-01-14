@@ -1,23 +1,22 @@
 {
-    "build": {
-      "production": {
-        "channel": "production",
-        "distribution": "store",
-        "ios": {
-          "image": "latest"
-        },
-        "android": {
-          "buildType": "app-bundle",
-          "image": "latest"
-        }
+  "build": {
+    "production": {
+      "channel": "production",
+      "distribution": "store",
+      "ios": {
+        "image": "latest"
       },
-      "preview": {
-        "distribution": "internal",
-        "android": {
-          "buildType": "apk"
-        },
-        "channel": "preview"
+      "android": {
+        "buildType": "app-bundle",
+        "image": "latest"
       }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "preview"
     }
   }
-  
+}

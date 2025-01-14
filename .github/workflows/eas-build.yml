@@ -14,6 +14,12 @@ jobs:
         with:
           node-version: 18.x
           cache: npm
+      - name: Create .env file
+        run: |
+          echo "API_URL=${{ secrets.API_KEY }}" >> .env.development
+          echo "VAR_NUMBER=${{ secrets.VAR_NUMBER }}" >> .env.development
+          echo "VAR_BOOL=${{ secrets.VAR_BOOL }}" >> .env.development
+          echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" >> .env.development
       - name: Setup Expo and EAS
         uses: expo/expo-github-action@v8
         with:

@@ -25,7 +25,7 @@ module.exports = {
       },
     ],
     'max-params': ['error', 4],
-    'max-lines-per-function': ['error', 100],
+    'max-lines-per-function': ['error', 200],
     'react/display-name': 'off',
     'react/no-inline-styles': 'off',
     'react/destructuring-assignment': 'off',

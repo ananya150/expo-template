@@ -20,15 +20,15 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   androidStatusBar: {
     hidden: true,
   },
-  androidNavigationBar: {
-    visible: 'immersive',
-  },
   updates: {
-    url: 'https://u.expo.dev/82f92951-bc08-4aed-ae94-c0f76e44dad5',
+    url: 'https://u.expo.dev/a9ed9852-b1f8-4043-a728-823f642a1804',
     fallbackToCacheTimeout: 0,
   },
   runtimeVersion: {
     policy: 'appVersion',
+  },
+  androidNavigationBar: {
+    visible: 'immersive',
   },
   experiments: {
     typedRoutes: true,

@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
   card: {
     width: 150,
     height: 150,
-    backgroundColor: '#7C3AED',
+    backgroundColor: 'red',
     borderRadius: 16,
     alignItems: 'center',
     justifyContent: 'center',

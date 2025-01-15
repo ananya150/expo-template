@@ -7,8 +7,8 @@
         "image": "latest"
       },
       "android": {
-        "buildType": "app-bundle",
-        "image": "latest"
+        "image": "latest",
+        "buildType": "apk"
       }
     },
     "preview": {
